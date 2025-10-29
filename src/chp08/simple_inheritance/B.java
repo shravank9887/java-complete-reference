@@ -1,4 +1,4 @@
-package chp08;
+package chp08.simple_inheritance;
 
 public class B extends A{
     int k;
