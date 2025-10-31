@@ -1,4 +1,4 @@
-package b01classbasics;
+package chp06_classbasics;
 
 public class BoxDemo3 {
     public static void main(String[] args) {

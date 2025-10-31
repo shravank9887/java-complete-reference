@@ -1,6 +1,4 @@
-package b01classbasics;
-
-import java.beans.XMLDecoder;
+package chp06_classbasics;
 
 public class BoxDemo2 {
 

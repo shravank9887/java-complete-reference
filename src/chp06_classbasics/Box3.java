@@ -1,4 +1,4 @@
-package b01classbasics;
+package chp06_classbasics;
 
 public class Box3 {
         double width;

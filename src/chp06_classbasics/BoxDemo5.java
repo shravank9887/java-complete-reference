@@ -1,15 +1,18 @@
-package b01classbasics;
+package chp06_classbasics;
 
-public class BoxDemo7 {
+public class BoxDemo5 {
     public static void main(String[] args) {
-        Box7 mybox1 = new Box7(10,20,15);
-        Box7 mybox2 = new Box7(3,6,9);
-
+        Box5 mybox1 = new Box5();
+        Box5 mybox2 = new Box5();
         double vol;
+
+        mybox1.setDim(10,20,15);
+        mybox2.setDim(3,6,9);
 
         vol = mybox1.volume();
         System.out.println("Volume is " +vol);
         vol = mybox2.volume();
         System.out.println("Volume is " +vol);
     }
+
 }
