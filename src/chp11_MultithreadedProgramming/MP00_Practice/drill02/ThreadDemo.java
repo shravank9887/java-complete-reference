@@ -1,0 +1,22 @@
+package chp11_MultithreadedProgramming.MP00_Practice.drill02;
+
+class ThreadDemo {
+    public static void main(String[] args) {
+        NewThread nt = new NewThread();
+
+        nt.t.start();
+
+        try{
+            for(int i =5; i >0 ; i--){
+                System.out.println("Main Thread : " + i );
+                Thread.sleep(500);
+            }
+        } catch(InterruptedException e){
+            System.out.println("Main Thread Interrupted");
+        }
+        System.out.println("Exiting Main Thread ");
+
+    }
+
+
+}
